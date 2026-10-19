@@ -67,9 +67,7 @@ jobs:
         run: python tools/check_numbers.py
       - name: confirm the committed experiment output still matches
         run: git diff --exit-code docs/experiments docs/metrics.json
-      - name: publish the awkward table to the job summary
-        if: always()
-        run: python tools/job_summary.py >> "$GITHUB_STEP_SUMMARY"
+      
       - name: upload experiment output
         if: always()
         uses: actions/upload-artifact@v4
