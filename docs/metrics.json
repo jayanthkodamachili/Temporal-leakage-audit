@@ -1,0 +1,351 @@
+{
+  "metrics": {
+    "tests_total": 84,
+    "coverage_line_pct": 100.0,
+    "declared_walk_forward": 0.6598,
+    "asof_walk_forward": 0.3267,
+    "inflation": 0.333,
+    "recovery": -0.003,
+    "recovery_share": -0.009,
+    "honest_inflation": 0.0,
+    "top_leak_name": "target_rolling_3d",
+    "top_leak_worth": 0.3226,
+    "second_leak_worth": 0.0001,
+    "full_score": 0.6573,
+    "all_leaks_removed": 0.3255,
+    "horizon_one_inflation": 0.3243,
+    "horizon_rest_inflation": 0.0084,
+    "horizon_ratio": 39.0,
+    "horizons_hitting_label": 1,
+    "audit_recall": 1.0,
+    "audit_precision": 1.0,
+    "injected_leaks": 7595,
+    "clean_flagged": 0,
+    "clean_trials": 400,
+    "example_violations": 4,
+    "example_features": 7,
+    "e1_shuffled_kfold_false": 0.6568,
+    "e1_shuffled_kfold_true": 0.3231,
+    "e1_walk_forward_false": 0.6598,
+    "e1_walk_forward_true": 0.3267,
+    "e1h_shuffled_kfold_false": 0.3228,
+    "e1h_shuffled_kfold_true": 0.3228,
+    "e1h_walk_forward_false": 0.3267,
+    "e1h_walk_forward_true": 0.3267,
+    "e2_target_rolling_3d_without": 0.3347,
+    "e2_target_rolling_3d_worth": 0.3226,
+    "e2_events_centered_7d_without": 0.6584,
+    "e2_events_centered_7d_worth": -0.0011,
+    "e2_events_same_day_without": 0.6574,
+    "e2_events_same_day_worth": -0.0001,
+    "e2_momentum_ratio_without": 0.6572,
+    "e2_momentum_ratio_worth": 0.0001,
+    "e3_1_declared": 0.6653,
+    "e3_1_honest": 0.3409,
+    "e3_1_inflation": 0.3243,
+    "e3_2_declared": 0.3396,
+    "e3_2_honest": 0.3348,
+    "e3_2_inflation": 0.0049,
+    "e3_3_declared": 0.3402,
+    "e3_3_honest": 0.3318,
+    "e3_3_inflation": 0.0084,
+    "e3_5_declared": 0.3313,
+    "e3_5_honest": 0.3264,
+    "e3_5_inflation": 0.0049,
+    "e3_7_declared": 0.3288,
+    "e3_7_honest": 0.3216,
+    "e3_7_inflation": 0.0072,
+    "e4_3_found": 481,
+    "e4_3_recall": 1.0,
+    "e4_6_found": 978,
+    "e4_6_recall": 1.0,
+    "e4_12_found": 2049,
+    "e4_12_recall": 1.0,
+    "e4_24_found": 4087,
+    "e4_24_recall": 1.0
+  },
+  "display": {
+    "tests_total": "84",
+    "coverage_line_pct": "100",
+    "declared_walk_forward": "0.6598",
+    "asof_walk_forward": "0.3267",
+    "inflation": "+0.3330",
+    "recovery": "-0.0030",
+    "recovery_share": "-0.009",
+    "honest_inflation": "+0.0000",
+    "top_leak_name": "target_rolling_3d",
+    "top_leak_worth": "+0.3226",
+    "second_leak_worth": "+0.0001",
+    "full_score": "0.6573",
+    "all_leaks_removed": "0.3255",
+    "horizon_one_inflation": "+0.3243",
+    "horizon_rest_inflation": "+0.0084",
+    "horizon_ratio": "39",
+    "horizons_hitting_label": "1",
+    "audit_recall": "1.0000",
+    "audit_precision": "1.0000",
+    "injected_leaks": "7595",
+    "clean_flagged": "0",
+    "clean_trials": "400",
+    "example_violations": "4",
+    "example_features": "7",
+    "e1_shuffled_kfold_false": "0.6568",
+    "e1_shuffled_kfold_true": "0.3231",
+    "e1_walk_forward_false": "0.6598",
+    "e1_walk_forward_true": "0.3267",
+    "e1h_shuffled_kfold_false": "0.3228",
+    "e1h_shuffled_kfold_true": "0.3228",
+    "e1h_walk_forward_false": "0.3267",
+    "e1h_walk_forward_true": "0.3267",
+    "e2_target_rolling_3d_without": "0.3347",
+    "e2_target_rolling_3d_worth": "+0.3226",
+    "e2_events_centered_7d_without": "0.6584",
+    "e2_events_centered_7d_worth": "-0.0011",
+    "e2_events_same_day_without": "0.6574",
+    "e2_events_same_day_worth": "-0.0001",
+    "e2_momentum_ratio_without": "0.6572",
+    "e2_momentum_ratio_worth": "+0.0001",
+    "e3_1_declared": "0.6653",
+    "e3_1_honest": "0.3409",
+    "e3_1_inflation": "+0.3243",
+    "e3_2_declared": "0.3396",
+    "e3_2_honest": "0.3348",
+    "e3_2_inflation": "+0.0049",
+    "e3_3_declared": "0.3402",
+    "e3_3_honest": "0.3318",
+    "e3_3_inflation": "+0.0084",
+    "e3_5_declared": "0.3313",
+    "e3_5_honest": "0.3264",
+    "e3_5_inflation": "+0.0049",
+    "e3_7_declared": "0.3288",
+    "e3_7_honest": "0.3216",
+    "e3_7_inflation": "+0.0072",
+    "e4_3_found": "481",
+    "e4_3_recall": "1.0000",
+    "e4_6_found": "978",
+    "e4_6_recall": "1.0000",
+    "e4_12_found": "2049",
+    "e4_12_recall": "1.0000",
+    "e4_24_found": "4087",
+    "e4_24_recall": "1.0000"
+  },
+  "anchors": {
+    "tests_total": [
+      "{} tests"
+    ],
+    "coverage_line_pct": [
+      "{} percent line coverage",
+      "{}% line coverage"
+    ],
+    "declared_walk_forward": [
+      "reports {}",
+      "{} on the features"
+    ],
+    "asof_walk_forward": [
+      "actually {}",
+      "is {}"
+    ],
+    "inflation": [
+      "worth {} r2",
+      "inflates it by {}"
+    ],
+    "recovery": [
+      "recovers {}",
+      "recovers only {}"
+    ],
+    "recovery_share": [
+      "{} of the inflation",
+      "recovers {}"
+    ],
+    "honest_inflation": [
+      "shows {} inflation",
+      "inflation of {}"
+    ],
+    "top_leak_worth": [
+      "worth {} on its own",
+      "accounts for {}"
+    ],
+    "top_leak_name": [
+      "{} accounts",
+      "feature {}"
+    ],
+    "second_leak_worth": [
+      "next worth {}",
+      "at most {}"
+    ],
+    "full_score": [
+      "full pipeline scores {}",
+      "scores {}"
+    ],
+    "all_leaks_removed": [
+      "falls to {}",
+      "down to {}"
+    ],
+    "horizon_one_inflation": [
+      "{} at horizon one",
+      "worth {} where"
+    ],
+    "horizon_rest_inflation": [
+      "{} at every other",
+      "at most {} elsewhere"
+    ],
+    "horizon_ratio": [
+      "ratio of {}",
+      "{} from identical"
+    ],
+    "horizons_hitting_label": [
+      "{} of 5 horizons",
+      "{} of the five"
+    ],
+    "audit_recall": [
+      "recall of {}",
+      "recall {}"
+    ],
+    "audit_precision": [
+      "precision of {}",
+      "precision {}"
+    ],
+    "injected_leaks": [
+      "{} injected leaks",
+      "across {} leaks"
+    ],
+    "clean_flagged": [
+      "{} were flagged",
+      "flagged {} of"
+    ],
+    "clean_trials": [
+      "{} pipelines with nothing",
+      "of {} clean"
+    ],
+    "example_violations": [
+      "{} of 7 features",
+      "finds {} violations"
+    ],
+    "example_features": [
+      "pipeline of {} features",
+      "{} features"
+    ],
+    "e1_shuffled_kfold_false": [
+      "| {} |"
+    ],
+    "e1_shuffled_kfold_true": [
+      "| {} |"
+    ],
+    "e1_walk_forward_false": [
+      "| {} |"
+    ],
+    "e1_walk_forward_true": [
+      "| {} |"
+    ],
+    "e1h_shuffled_kfold_false": [
+      "| {} |"
+    ],
+    "e1h_shuffled_kfold_true": [
+      "| {} |"
+    ],
+    "e1h_walk_forward_false": [
+      "| {} |"
+    ],
+    "e1h_walk_forward_true": [
+      "| {} |"
+    ],
+    "e2_target_rolling_3d_without": [
+      "| {} |"
+    ],
+    "e2_target_rolling_3d_worth": [
+      "| {} |"
+    ],
+    "e2_events_centered_7d_without": [
+      "| {} |"
+    ],
+    "e2_events_centered_7d_worth": [
+      "| {} |"
+    ],
+    "e2_events_same_day_without": [
+      "| {} |"
+    ],
+    "e2_events_same_day_worth": [
+      "| {} |"
+    ],
+    "e2_momentum_ratio_without": [
+      "| {} |"
+    ],
+    "e2_momentum_ratio_worth": [
+      "| {} |"
+    ],
+    "e3_1_declared": [
+      "| {} |"
+    ],
+    "e3_1_honest": [
+      "| {} |"
+    ],
+    "e3_1_inflation": [
+      "| {} |"
+    ],
+    "e3_2_declared": [
+      "| {} |"
+    ],
+    "e3_2_honest": [
+      "| {} |"
+    ],
+    "e3_2_inflation": [
+      "| {} |"
+    ],
+    "e3_3_declared": [
+      "| {} |"
+    ],
+    "e3_3_honest": [
+      "| {} |"
+    ],
+    "e3_3_inflation": [
+      "| {} |"
+    ],
+    "e3_5_declared": [
+      "| {} |"
+    ],
+    "e3_5_honest": [
+      "| {} |"
+    ],
+    "e3_5_inflation": [
+      "| {} |"
+    ],
+    "e3_7_declared": [
+      "| {} |"
+    ],
+    "e3_7_honest": [
+      "| {} |"
+    ],
+    "e3_7_inflation": [
+      "| {} |"
+    ],
+    "e4_3_found": [
+      "| {} |"
+    ],
+    "e4_3_recall": [
+      "| {} |"
+    ],
+    "e4_6_found": [
+      "| {} |"
+    ],
+    "e4_6_recall": [
+      "| {} |"
+    ],
+    "e4_12_found": [
+      "| {} |"
+    ],
+    "e4_12_recall": [
+      "| {} |"
+    ],
+    "e4_24_found": [
+      "| {} |"
+    ],
+    "e4_24_recall": [
+      "| {} |"
+    ]
+  },
+  "checked_documents": [
+    "README.md",
+    "docs/adr/ADR-005-what-this-cannot-measure.md"
+  ],
+  "note": "every value here is produced by running the suite and the four experiments"
+}

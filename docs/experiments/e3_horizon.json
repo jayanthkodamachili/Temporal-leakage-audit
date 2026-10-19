@@ -1,0 +1,62 @@
+{
+  "experiment": "e3_horizon",
+  "question": "Does a longer forecast horizon make the leak more valuable?",
+  "seeds": [
+    20260219,
+    11,
+    404,
+    2027
+  ],
+  "cells": [
+    {
+      "horizon": 1,
+      "window_reaches_label": true,
+      "declared": 0.6652511496271066,
+      "honest": 0.340921470313184,
+      "inflation": 0.32432967931392265,
+      "inflation_multiple": 1.9513325136606403
+    },
+    {
+      "horizon": 2,
+      "window_reaches_label": false,
+      "declared": 0.3396202408189672,
+      "honest": 0.33475570390835296,
+      "inflation": 0.0048645369106142256,
+      "inflation_multiple": 1.0145316027593245
+    },
+    {
+      "horizon": 3,
+      "window_reaches_label": false,
+      "declared": 0.34015825801177924,
+      "honest": 0.33176842196700523,
+      "inflation": 0.008389836044774002,
+      "inflation_multiple": 1.025288229648355
+    },
+    {
+      "horizon": 5,
+      "window_reaches_label": false,
+      "declared": 0.3312822368623466,
+      "honest": 0.32640200480843284,
+      "inflation": 0.004880232053913747,
+      "inflation_multiple": 1.0149515995061917
+    },
+    {
+      "horizon": 7,
+      "window_reaches_label": false,
+      "declared": 0.32881902311624145,
+      "honest": 0.32159018440041887,
+      "inflation": 0.007228838715822583,
+      "inflation_multiple": 1.0224784183923405
+    }
+  ],
+  "shortest_horizon": 1,
+  "shortest_inflation": 0.32432967931392265,
+  "shortest_multiple": 1.9513325136606403,
+  "longest_horizon": 7,
+  "longest_inflation": 0.007228838715822583,
+  "longest_multiple": 1.0224784183923405,
+  "honest_decay": 0.019331285912765117,
+  "horizons_reaching_label": 1,
+  "horizon_count": 5,
+  "worth_ratio_first_to_rest": 38.65745141896383
+}

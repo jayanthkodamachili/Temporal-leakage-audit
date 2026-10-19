@@ -1,0 +1,49 @@
+{
+  "experiment": "e2_which_leak_pays",
+  "question": "Which violation is actually inflating the score?",
+  "seeds": [
+    20260219,
+    11,
+    404,
+    2027,
+    90210
+  ],
+  "full_score": 0.6573016908166489,
+  "all_leaks_removed": 0.32554018848221233,
+  "cells": [
+    {
+      "feature": "target_rolling_3d",
+      "kind": "target_future",
+      "severity_rank": 0,
+      "score_without": 0.33470853904551023,
+      "worth": 0.3225931517711387
+    },
+    {
+      "feature": "events_centered_7d",
+      "kind": "future_window",
+      "severity_rank": 1,
+      "score_without": 0.6583562200450628,
+      "worth": -0.0010545292284138696
+    },
+    {
+      "feature": "events_same_day",
+      "kind": "ingestion_lag",
+      "severity_rank": 2,
+      "score_without": 0.657382812863271,
+      "worth": -8.112204662213962e-05
+    },
+    {
+      "feature": "momentum_ratio",
+      "kind": "inherited",
+      "severity_rank": 3,
+      "score_without": 0.6572194552362538,
+      "worth": 8.223558039510692e-05
+    }
+  ],
+  "most_valuable_leak": "target_rolling_3d",
+  "most_valuable_worth": 0.3225931517711387,
+  "least_valuable_leak": "events_centered_7d",
+  "least_valuable_worth": -0.0010545292284138696,
+  "severity_matches_worth": false,
+  "worst_by_severity": "target_rolling_3d"
+}

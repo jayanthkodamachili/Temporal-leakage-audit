@@ -1,0 +1,46 @@
+{
+  "experiment": "e4_audit_recall",
+  "question": "Does the audit find injected leaks it was not designed around?",
+  "trials_per_size": 400,
+  "cells": [
+    {
+      "pipeline_size": 3,
+      "true_positives": 481,
+      "false_negatives": 0,
+      "false_positives": 0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "pipeline_size": 6,
+      "true_positives": 978,
+      "false_negatives": 0,
+      "false_positives": 0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "pipeline_size": 12,
+      "true_positives": 2049,
+      "false_negatives": 0,
+      "false_positives": 0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "pipeline_size": 24,
+      "true_positives": 4087,
+      "false_negatives": 0,
+      "false_positives": 0,
+      "recall": 1.0,
+      "precision": 1.0
+    }
+  ],
+  "overall_recall": 1.0,
+  "overall_precision": 1.0,
+  "clean_pipelines_tested": 400,
+  "clean_pipelines_flagged": 0,
+  "clean_false_alarm_rate": 0.0,
+  "injected_leaks_total": 7595,
+  "measures": "implementation correctness against the rules, not rule completeness"
+}

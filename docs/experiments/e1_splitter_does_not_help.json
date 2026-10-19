@@ -1,0 +1,49 @@
+{
+  "experiment": "e1_splitter_does_not_help",
+  "question": "Does a time-ordered splitter recover a leaking feature definition?",
+  "seeds": [
+    20260219,
+    11,
+    404,
+    2027,
+    90210,
+    13,
+    777,
+    31337
+  ],
+  "folds": 5,
+  "leaky": {
+    "label": "as written",
+    "means": {
+      "shuffled_kfold|False": 0.6567725400659934,
+      "shuffled_kfold|True": 0.32308264657432006,
+      "walk_forward|False": 0.659753637867802,
+      "walk_forward|True": 0.32674688151417686
+    },
+    "inflation_mean": 0.33300675635362503,
+    "inflation_spread": 0.05122431955465512,
+    "recovery_mean": -0.002981097801808427,
+    "recovery_share": -0.008952064019514226
+  },
+  "honest": {
+    "label": "repaired",
+    "means": {
+      "shuffled_kfold|False": 0.32283627675624316,
+      "shuffled_kfold|True": 0.32283627675624316,
+      "walk_forward|False": 0.3266529938887349,
+      "walk_forward|True": 0.3266529938887349
+    },
+    "inflation_mean": 0.0,
+    "inflation_spread": 0.0,
+    "recovery_mean": -0.003816717132491751,
+    "recovery_share": 0.0
+  },
+  "declared_walk_forward": 0.659753637867802,
+  "asof_walk_forward": 0.32674688151417686,
+  "declared_shuffled": 0.6567725400659934,
+  "inflation": 0.33300675635362503,
+  "recovery": -0.002981097801808427,
+  "recovery_share": -0.008952064019514226,
+  "honest_inflation": 0.0,
+  "inflation_spread": 0.05122431955465512
+}
